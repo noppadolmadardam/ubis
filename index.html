@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> UBIS </title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  
+        <!-- <link rel="stylesheet" type="text/css" href="css/fullpage.min.css">   -->
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <link rel="icon" type="image/x-icon" href="images/UBIS-LOGO.png">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.6/fullpage.css"  />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    </head>
+    <body onload="splash(3500)"> 
+
+        <div id="splashscreen" class="splashscreen">
+            <div class="centerx-img text-center"> 
+                <video playsinline autoplay muted id="sec5" class="mb-x">
+                    <source src="images/HOME-1920P-x2.mp4" type="video/mp4"> 
+                </video> 
+                <video playsinline autoplay muted id="sec5" class="pc-x">
+                    <source src="images/HOME-PHONE-x2.mp4" type="video/mp4"> 
+                </video> 
+            </div>
+        </div>
+
+        <div class="right-menu">
+            <div class="menu-btn-fixed-page">
+                <button class="btn btn-menu-fixed-page"><i class="fas fa-bars"></i></button>
+                <a class="btn btn-go-to-top" data-section="1" id="top"><i class="fas fa-chevron-up"></i></a>
+            </div>
+            <div class="menu-fixed-page navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link menu-main" data-section="1">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-main" data-section="2">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-main" data-section="3">OUR MOTTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-main" data-section="4">CUSTOMER/AWARD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-main" data-section="5">BUSINESS MAP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-main" data-section="7">PRODUCT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-main" data-section="8">SERVICE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-main" data-section="9">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="mainContain" style="visibility: hidden;">
+            <div class="section section1 active">
+                <div class="container-fluid pl-5 pr-5">
+                    <nav class="navbar navbar-expand-md fixed-top fade-in-top">
+                        <a href="/" class="navbar-brand pl-5">
+                            <img src="images/UBIS-LOGO.png"  height="40px" alt="">
+                        </a>
+                      <!--   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar7">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> -->
+                        <div class="navbar-collapse collapse justify-content-stretch" id="navbar7">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link menu-main" data-section="2">ABOUT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link menu-main" data-section="3">OUR MOTTO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link menu-main" data-section="4">CUSTOMER/AWARD</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link menu-main" data-section="5">BUSINESS MAP</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link menu-main" data-section="7">PRODUCT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link menu-main" data-section="8">SERVICE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link menu-main" data-section="9">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row justify-content-center"> 
+                        <div class="col-xl-12 p-0 intro-info">
+
+                            <div id="carousel-top" class="carousel slide carousel-fade" data-ride="carousel"> 
+                                <div class="carousel-inner fade-in-right">
+                                    <div class="carousel-item active" style="background: url(images/home1.png);"></div> 
+                                    <div class="carousel-item" style="background: url(images/home2.png);"></div> 
+                                    <div class="carousel-item" style="background: url(images/home3.png);"></div> 
+                                </div>  
+                            </div>
+
+                            <div class="info">
+                                <p class="fade-in-left">
+                                    WORLD CLASS <br>
+                                    PARTNERSHIP <br>
+                                    WITH<br class="d-block d-md-none"> EXCELLENT <br>
+                                    EXPERTISE AND <br>
+                                    INNOVATION
+                                </p>
+                                <div class="vid">
+                                    <video loop autoplay muted id="sec1">
+                                        <source src="images/HOME-bubble.mp4" type="video/mp4">
+                                        Your browser does not support HTML5 video.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scoll-x">
+                        <div>SCROLL</div>
+                        <i class="fas fa-circle"></i>
+                    </div>
+                </div>
+            </div>  
+            <div class="section section2">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-10">
+                            <h3 class="h3x">ABOUT US</h3>
+                            <p>
+                                Established in 1983, UBIS (Asia) Public Company Limited is a manufacturer and  <br class="d-none d-lg-block">
+                                distributor of sealants and coatings used in the metal packaging industry.
+                            </p>
+                            <br><br>
+
+                            <div class="row">
+                                <div class="col-xl-3 col-6">
+                                    <div class="item-ab mb-4 mb-xl-0">
+                                        <div class="num">1</div>
+                                        <img src="images/handshake.gif" alt="Over 37 years" class="img-fluid d-block mx-auto" loop="false">
+                                        <h4>Over 37 years</h4>
+                                        <h6>
+                                            of continuous dedication <br> towards innovative research 
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-6">
+                                    <div class="item-ab mb-4 mb-xl-0">
+                                        <div class="num">2</div>
+                                        <img src="images/grafik.gif" alt="Averaging 1 Billion" class="img-fluid d-block mx-auto">
+                                        <h4>Averaging 1 Billion</h4>  
+                                        <h6>
+                                            Thai Baht of Sales Revenue <br>
+                                            per year and growing <br>
+                                            constantly
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-6">
+                                    <div class="item-ab">
+                                        <div class="num">3</div>
+                                        <img src="images/shopping-bag.gif" alt="11,000 tons" class="img-fluid d-block mx-auto">
+                                        <h4>11,000 tons</h4>
+                                        <h6>
+                                            of sealants and coatings <br>
+                                            sold a year
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-6">
+                                    <div class="item-ab">
+                                        <div class="num">4</div>
+                                        <img src="images/package.gif" alt="620+ variations" class="img-fluid d-block mx-auto">
+                                        <h4>620+ variations</h4>
+                                        <h6>
+                                            of sealants and coatings  <br class="d-none d-sm-block">
+                                            developed over the years to  <br class="d-none d-sm-block">
+                                            cater to our customers <br class="d-none d-sm-block">
+                                            specific requirements 
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="wrapper-vid-about">
+                        <div class="vid">
+                            <video loop data-autoplay playsinline muted id="sec2">
+                                <source src="images/ABOUT-bubble.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="section section3"> 
+                <div class="container-fluid">
+                    <div class="row d-flex justify-content-center align-items-center row-wrapper">
+                        <div class="col-xl-10">
+                            <h3 class="h3x">OUR MOTTO</h3>
+                            <br class="d-none d-md-block"> 
+                            <div class="main-col">
+                                <div class="col-item">
+                                    <div class="item-our">
+                                        <img src="images/o1.png" alt="Solution">
+                                        <div class="p-text" data-aos="fade-down">
+                                            WORLD CLASS <br>
+                                            PARTNERSHIP
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Solution Provider, <br>
+                                        hight flexibility <br>
+                                        and customization <br>
+                                    </p>
+                                </div>
+                                <div class="col-item">
+                                    <div class="item-our">
+                                        <img src="images/o2.png" alt="Solution">
+                                        <div class="p-text" data-aos="fade-down">
+                                            WITH INNOVATION <br>
+                                            & EXPERTISE
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Superior technical services, <br>
+                                        experimentation and forefront <br>
+                                        research technologies<br>
+                                    </p>
+                                </div>
+                                <div class="col-item">
+                                    <div class="item-our">
+                                        <img src="images/o3.png" alt="Solution">
+                                        <div class="p-text" data-aos="fade-down">
+                                            AS PRECISION <br>
+                                            MAKERS
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Via research & development, <br>
+                                        no.1 in Thailand production <br>
+                                        technology and quality control<br>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <div class="section section4"> 
+                <div class="container-fluid">
+                    <div class="row ">
+                        <div class="col-12 h50"> 
+                            <div class="row justify-content-center  h-100">
+                                <div class="col-xl-11">
+                                    <div class="label1">ISO / AWARDS</div>
+
+                                    <div class="col-12 h-100 d-none d-md-block">
+                                        <div class="main">
+                                            <div class="item-awd">
+                                                <div class="m">
+                                                    <img src="images/ISO1.png" alt="TOP INNOVATIVE ORGANIZATION 2018">
+                                                    <div class="label">
+                                                        <p>
+                                                            TOP INNOVATIVE <br>
+                                                            ORGANIZATION 2018
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item-awd">
+                                                <div class="m">
+                                                    <img src="images/ISO2.png" alt="ISO 9001 : 2015 ">
+                                                    <div class="label">
+                                                        <p>
+                                                            ISO 9001 : 2015 <br>
+                                                            ISO 45001 : 2018 <br>
+                                                            ISO 14001 : 2015
+                                                        </p>
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                            <div class="item-awd">
+                                                <div class="m"> 
+                                                    <img src="images/ISO3.png" alt="HALAL CERTIFICATE">
+                                                    <div class="label">
+                                                        <p>
+                                                            HALAL <br>
+                                                            CERTIFICATE
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item-awd">
+                                                <div class="m"> 
+                                                    <img src="images/ISO4.png" alt="GREEN INDUSTRY AWARD">
+                                                    <div class="label">
+                                                        <p>
+                                                            GREEN INDUSTRY <br>
+                                                            AWARD
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 h-100 d-block d-md-none">
+                                        <div class="wrapper-award-slide">
+                                            <div class="owl-carousel" id="carousel-award">
+                                                <div class="item">
+                                                    <img src="images/award1.png" style="max-width: 220px;">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="images/award2.png">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="images/award3.png">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="images/award4.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 h50x"> 
+                            <div class="row justify-content-center h-100">
+                                <div class="col-xl-11 jusx">
+                                    <div class="wrapper-label-title">
+                                        <div class="label2">OUR CUSTOMER</div>
+                                    </div>
+                                    <div class="wrapper-customer-section">
+                                        <div class="owl-carousel" id="carousel-customer">
+                                            <div class="item">
+                                                <img src="images/customer/c1.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/customer/c2.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/customer/c3.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/customer/c4.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/customer/c5.jpg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/customer/c6.jpg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/customer/c7.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/customer/c8.jpg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/customer/c9.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/customer/c10.jpg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/customer/c11.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/customer/c12.jpg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/customer/c13.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/customer/c14.jpg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/customer/c15.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/customer/c16.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/customer/c17.png" alt="">
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>  
+            <div class="section section5">
+                <div class=" ">
+                    <video playsinline data-autoplay muted id="sec5" class="d-none d-lg-block">
+                        <source src="images/MARKET-MAP-1920P.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                    <video playsinline data-autoplay muted id="sec5" class="d-block d-lg-none">
+                        <source src="images/MARKET-MAP-PHONE-2.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+            <div class="section section6">
+                <div class=" ">
+                    <video playsinline data-autoplay muted id="sec6" class="d-none d-md-block">
+                        <source src="images/TIMELINE-1920P-x2.mp4" type="video/mp4" loop="false" >
+                        Your browser does not support HTML5 video.
+                    </video>
+                    <video playsinline data-autoplay muted id="sec6" class="d-block d-md-none">
+                        <source src="images/TIMELINE-PHONE-x2.mp4" type="video/mp4" loop="false" >
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>  
+            <div class="section section7"> 
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="hx">OUR</h2>
+                            <h1>PRODUCTS & SERVICES</h1>
+                        </div>
+                        <div class="col-12 main1-product">
+                            <div class="tab1m active tab1m-1" data-tab1="1">COATINGS</div>
+                            <div class="tab1m tab1m-2" data-tab1="2">SEALANTS</div>
+                        </div>
+                        <div class="col-12 p-0" style="overflow: hidden;"> 
+                            <div class="row justify-content-center">
+                                <div class="box-circle circle1 active" id="circle1">
+                                    <img src="images/COATING.gif">
+                                    <div class="text">
+                                        <h3>COATINGS</h3>
+                                        <p>Lacquer is a resin coating that 
+                                            acts as a layer protecting the 
+                                            can from any distressing 
+                                            variables such as corrosions and 
+                                            scratches. Lacquer can also act 
+                                            as the primer for external 
+                                            printing and varnish for 
+                                            beautifying purposes.</p>
+                                    </div>
+                                </div>
+                                <div class="box-circle circle2" id="circle2">
+                                    <img src="images/SEALANT-no-bg.gif">
+                                    <div class="text2">
+                                        <h3>SEALANTS</h3>
+                                        <p>Compound is an adhesive sealant technology for metal packaging and its key function is to prevent leakage between the can and its lid. Compound should also prevent any external contamination thereby extending shelf life of the product packed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contr">
+                                <a><img src="images/l1.png" alt=""></a>
+                                <a><img src="images/l2.png" alt=""></a>
+                            </div>
+                            <div class="benefits">
+                                <h4>Benefits and Importance</h4>
+                                <div class="benefits-circle1">
+                                    <p>● Protective Coating on internal and external surfaces of metal packaging </p>
+                                    <p>● Decoration Coating such as glossing and varnishing </p>
+                                    <p>● Communication Coating for marketing and branding</p>
+                                </div>
+                                <div class="benefits-circle2" style="display: none;">
+                                    <p>● To prevent void space and leakage on metal packaging seams</p>
+                                    <p>● To prevent contamination ● To maintain internal air pressure</p>
+                                    <p>● Prolong shelf-life</p>
+                                </div>
+                            </div>
+                            <div class="arrow">
+                                <img src="images/ARROW-2.png" alt="">
+                                <img src="images/ARROW-2.png" alt="">
+                                <img src="images/ARROW-2.png" alt="">
+                            </div>
+                            <div class="tab-circle"> 
+                                <div class="blow-circle active" data-blow="1" data-start="1">
+                                    <div class="outer">
+                                        <div class="inner">
+                                            <h3>METAL <br> PACKAGING</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blow-circle" data-blow="2" data-start="4">
+                                    <div class="outer">
+                                        <div class="inner">
+                                            <h3>COATINGS  <br>
+                                                FOR <br>
+                                                METAL  <br>
+                                                PACKAGING   </h3>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="blow-circle" data-blow="3" data-start="6">
+                                    <div class="outer">
+                                        <div class="inner">
+                                            <h3>SEALANTS <br>
+                                                FOR<br>
+                                                METAL <br>
+                                                PACKAGING   </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 main2-product active" id="main21">
+                                <div class="tab2m active" data-cc="1">CAN</div>
+                                <div class="tab2m" data-cc="2">ENDS</div>
+                                <div class="tab2m" data-cc="3">OTHERS</div>
+                            </div>
+                            <div class="col-12 main2-product" id="main22">
+                                <div class="tab2m active" data-cc="4">INTERNAL LAYER</div>
+                                <div class="tab2m" data-cc="5">EXTERNAL LAYER</div> 
+                            </div>
+                            <div class="col-12 main2-product" id="main23">
+                                <div class="tab2m active" data-cc="6">1</div>
+                                <div class="tab2m" data-cc="7">2</div> 
+                            </div>
+                            <div class="container pb-5 mb-5" style="max-width: 100% !important;">
+                                <div class="data-circle active" id="dataEnd1" style="min-height: 660px;">
+                                    <div class="div-circle">
+                                        <img src="images/pp1.png" alt="pp1">
+                                        <h3>DRD CAN</h3>
+                                        <p>● External Clear lacquer</p>
+                                        <p>● External Gold lacquer</p>
+                                        <p>● External Color lacquer</p>
+                                        <p>● Internal Gold lacquer</p>
+                                        <p>● Internal Aluminized lacquer</p>
+                                        <p>● Internal Gold lacquer BPA NI</p>
+                                        <p>● Internal Aluminized lacquer - BPA NI</p>
+                                    </div>
+                                    <div class="div-circle">
+                                        <img src="images/pp2.png" alt="pp2">
+                                        <h3>DRD
+                                            DISTORTION
+                                            CAN</h3>
+                                        <p>● External White Base Coat</p>
+                                        <p>● Overprint Varnish</p>
+                                    </div>
+                                    <div class="div-circle">
+                                        <img src="images/pp3.png" alt="pp3">
+                                        <h3>3-PIECE CAN</h3>
+                                        <p>● External Clear lacquer</p>
+                                        <p>● External Gold lacquer</p>
+                                        <p>● Side Stripe lacquer</p>
+                                        <p>● Post Repair lacquer</p>
+                                        <p>● External White Base Coat</p>
+                                        <p>● Overprint Varnish</p>
+                                        <p>● Sizing lacquer</p>
+                                        <p>● Internal Gold lacquer</p>
+                                        <p>● Internal Aluminized lacquer</p>
+                                        <p>● Internal Gold lacquer BPA NI</p>
+                                        <p>● Internal Aluminized lacquer - BPA NI</p>
+                                        <p>● Internal White lacquer</p>
+                                        <p>● Internal White lacquer BPA NI</p>
+                                    </div>
+                                    <div class="div-circle">
+                                        <img src="images/pp4.png" alt="pp4">
+                                        <h3>2-PIECE CAN</h3>
+                                        <p>● External White Base Coat</p>
+                                        <p>● Overprint Varnish</p>
+                                    </div>
+                                    <div class="div-circle">
+                                        <img src="images/pp5.png" alt="pp5">
+                                        <h3>AEROSOL
+                                            AND
+                                            2-PIECE
+                                            MONOBLOC</h3>
+                                        <p>● External White Base Coat</p>
+                                        <p>● Overprint Varnish</p>
+                                        <p>● Side Stripe lacquer</p>
+                                    </div>
+                                    <div class="div-circle">
+                                        <img src="images/pp6.png" alt="pp6">
+                                        <h3>GENERAL LINE
+                                            /CAN
+                                            /PAILS
+                                            /DRUMS</h3>
+                                        <p>● External White Base Coat</p>
+                                        <p>● Overprint Varnish</p>
+                                        <p>● External Gold lacquer</p>
+                                        <p>● Internal Gold lacquer</p>
+                                        <p>● Side Stripe lacquer</p>
+                                    </div> 
+                                </div>
+                                <div class="data-circle" id="dataEnd2">
+                                    <div class="div-circle">
+                                        <img src="images/pp7.png" alt="pp7">
+                                        <h3>NORMAL END</h3>
+                                        <p>● Water-base Sealing Compounds</p>
+                                        <p>● External Clear lacquer</p>
+                                        <p>● External Gold lacquer</p>
+                                        <p>● Post Repair Lacquer</p>
+                                        <p>● Sizing lacquer</p>
+                                        <p>● Side Stripe lacquer</p>
+                                        <p>● Internal Gold lacquer</p>
+                                        <p>● Internal Aluminized lacquer</p>
+                                        <p>● Internal Gold lacquer BPA NI</p>
+                                        <p>● Internal Aluminized lacquer BPA NI</p>
+                                    </div>
+                                    <div class="div-circle">
+                                        <img src="images/pp8.png" alt="pp8">
+                                        <h3>EASY OPEN END (TFS/TPS/ALUMINUM)</h3>
+                                        <p>● Water-base Sealing Compounds</p>
+                                        <p>● External Clear lacquer</p>
+                                        <p>● External Gold lacquer</p>
+                                        <p>● Score Repair Lacquer (2K)</p>
+                                        <p>● Post Repair lacquer</p>
+                                        <p>● Sizing lacquer</p>
+                                        <p>● Side Stripe lacquer</p>
+                                        <p>● Internal Gold lacquer</p>
+                                        <p>● Internal Aluminized lacquer</p>
+                                        <p>● Internal Gold lacquer BPA NI</p>
+                                        <p>● Internal Aluminized lacquer BPA NI</p>
+                                    </div>
+                                    <div class="div-circle">
+                                        <img src="images/pp9.png" alt="pp9">
+                                        <h3>AEROSOL END (DOME/COME)</h3>
+                                        <p>● Waterbase Sealing Compound</p>
+                                        <p>● External Clear lacquer</p>
+                                        <p>● External Gold lacquer</p>
+                                    </div>
+                                    <div class="div-circle">
+                                        <img src="images/pp10.png" alt="pp10">
+                                        <h3>IRREGULARSHAPE CAN END (OVAL/CLUB)</h3>
+                                        <p>● External Gold lacquer</p>
+                                        <p>● Internal Gold lacquer BPA NI</p>
+                                        <p>● Internal White Base Coat</p>
+                                        <p>● Overprint Varnish</p>
+                                    </div>
+                                    <div class="div-circle">
+                                        <img src="images/pp11.png" alt="pp11">
+                                        <h3>CLOSURES</h3>
+                                        <p>● Plastisol PVC Compound</p>
+                                        <p>● Internal Adhesive lacquer</p>
+                                        <p>● External lacquer ROPP</p>
+                                        <p>● Internal lacquer ROPP</p>
+                                    </div> 
+                                </div>
+                                <div class="data-circle" id="dataEnd3">
+                                    <div class="div-circle">
+                                        <img src="images/pp12.png" alt="pp12">
+                                        <h3>DRUMS</h3>
+                                        <p>● Water-base Sealing Compound</p>
+                                        <p>● PVC Plastisol lacquer</p>
+                                        <p>● Drum Lining (Internal Spay Lacquer)</p>
+                                    </div>
+                                    <div class="div-circle">
+                                        <img src="images/pp13.png" alt="pp13">
+                                        <h3>COLLAPSIBLE TUBE</h3>
+                                        <p>● Water-base Sealing Compound</p>
+                                        <p>● Internal Spay Lacquer</p>
+                                        <p>● External White Base Coat</p>
+                                        <p>● Overprint Varnish</p>
+                                    </div>
+                                    <div class="div-circle">
+                                        <img src="images/pp14.png" alt="pp14">
+                                        <h3>PAIL COVER GALLON</h3>
+                                        <p>● Water-base Sealing Compound</p>
+                                        <p>PVC Plastisol lacquer</p>
+                                    </div>
+                                </div>
+                                <div class="data-circle" id="dataEnd4">
+                                    <div class="div-table">
+
+                                        <div class="col">
+                                            <div class="row justify-content-center">
+                                                <div class="col-xl-9">
+                                                    <div class="row">
+                                                        <div class="col-xl-5 col-md-6">
+                                                            <div class="data-circle-img position-relative">
+                                                                <img src="images/COATING.gif" alt="" class="img-fluid d-block m-auto mx-he1">
+                                                                <div class="txt-lacquer">LACQUER</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-7 col-12">
+                                                            <img src="images/rr1.png" alt="" class="img-fluid d-block m-auto">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                        <h3 class="mt-3 mb-2"><span>INTERNAL  LACQUER</span></h3>
+                                        
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Series</th>
+                                                        <th>Application</th>
+                                                        <th>Properties</th>
+                                                        <th>Packages</th>
+                                                        <th>US F.D.A</th>
+                                                        <th>BPA NI</th>
+                                                        <th>PFOA comply</th>
+                                                        <th>Others1</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Epoxy/Phenolic
+                                                            Series</td>
+                                                        <td>Clear/Gold and
+                                                            Aluminized</td>
+                                                        <td>Acidic and 
+                                                            Sulphur
+                                                            Resistance</td>
+                                                        <td>Fruit, vegetable,
+                                                            seafood
+                                                            resistance</td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Epoxy/Amino 
+                                                            Series</td>
+                                                        <td>Clear/Gold
+                                                            Lacquer</td>
+                                                        <td>Alkali
+                                                            Resistance</td>
+                                                        <td>Dry and non-
+                                                            aggressive food,
+                                                            Paint cans and
+                                                            others</td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Organosol
+                                                            Series</td>
+                                                        <td>Gold Lacquer</td>
+                                                        <td>BPA NI, Good
+                                                            Flexibility</td>
+                                                        <td>Fish, fruits and
+                                                            vegetable</td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Polyester
+                                                            Series</td>
+                                                        <td>Aluminized and
+                                                            Gold Lacquer
+                                                            Series</td>
+                                                        <td>BPA NI, Good
+                                                            Flexibility</td>
+                                                        <td>Fish, fruits and
+                                                            vegetable</td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Vinyl
+                                                            Series</td>
+                                                        <td>Spray Lacquer</td>
+                                                        <td>Flavor
+                                                            Preservation</td>
+                                                        <td>Juice drinks</td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="data-circle" id="dataEnd5">
+                                    <div class="div-table">
+
+                                        <div class="col">
+                                            <div class="row justify-content-center">
+                                                <div class="col-xl-9">
+                                                    <div class="row">
+                                                        <div class="col-xl-5 col-md-6">
+                                                            <div class="data-circle-img position-relative">
+                                                                <img src="images/COATING.gif" alt="" class="img-fluid d-block m-auto mx-he1">
+                                                                <div class="txt-lacquer">LACQUER</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-7 col-12">
+                                                            <img src="images/rr1.png" alt="" class="img-fluid d-block m-auto">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                        <h3 class="mt-3 mb-2"><span>EXTERNAL  LACQUER</span></h3>
+                                        <div class="col">
+                                            <div class="row">
+                                                <div class="col-xl-6 px-xl-1"> 
+                                                    <h4><span>PRIMER & SIZING/EXTERNAL LACQUER</span></h4>
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Series</th>
+                                                                <th>Application</th>
+                                                                <th>Properties</th>
+                                                                <th>US F.D.A</th> 
+                                                                <th>Others1</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Acrylic Series</td>
+                                                                <td>Coating for welding area</td>  
+                                                                <td>Anti-corrosion, good adhesion and sterilization ability</td> 
+                                                                <td><img src="images/chk.png" alt=""></td>
+                                                                <td><img src="images/chk.png" alt=""></td> 
+                                                            </tr>  
+                                                            <tr>
+                                                                <td>Epoxy/Amino Series</td>
+                                                                <td>Clear and Gold Lacquer</td>  
+                                                                <td>Retort, blushing, scratch resistance</td> 
+                                                                <td><img src="images/chk.png" alt=""></td>
+                                                                <td><img src="images/chk.png" alt=""></td> 
+                                                            </tr> 
+                                                            <tr>
+                                                                <td>Epoxy/Phenolic
+                                                                    Series</td>
+                                                                <td>Clear and Gold Lacquer</td>  
+                                                                <td>Fuming and scratch resistance</td> 
+                                                                <td><img src="images/chk.png" alt=""></td>
+                                                                <td><img src="images/chk.png" alt=""></td> 
+                                                            </tr> 
+                                                            <tr>
+                                                                <td>Epoxy Combination Series</td>
+                                                                <td>Clear and Gold Lacquer</td>  
+                                                                <td>Composite</td> 
+                                                                <td><img src="images/chk.png" alt=""></td>
+                                                                <td><img src="images/chk.png" alt=""></td> 
+                                                            </tr> 
+                                                        </tbody>
+                                                    </table>
+                                                </div> 
+                                                <div class="col-xl-6 px-xl-1">   
+                                                    <h4><span>OVER PRINT VARNISH</span></h4> 
+                                                    <div class="table-responsive">
+                                                        <table class="table">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Series</th>
+                                                                    <th>Application</th>
+                                                                    <th>Properties</th>
+                                                                    <th>US F.D.A</th> 
+                                                                    <th>Others1</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>EP Series</td>
+                                                                    <td>Polyester/Acrylic</td>  
+                                                                    <td style="font-size: 12px !important;line-height: 13px;">High Gloss & Color <br>Retention, Excellent<br> Brightness & Hardness</td> 
+                                                                    <td><img src="images/chk.png" alt=""></td>
+                                                                    <td><img src="images/chk.png" alt=""></td> 
+                                                                </tr>   
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <br> 
+
+                                                    
+                                                    <h4 class="cel mt-3 mb-2"><span>SCORE REPAIR</span></h4>
+                                                    <div class="table-responsive">
+                                                        <table class="table">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Series</th>
+                                                                    <th>Application</th>
+                                                                    <th>Properties</th>
+                                                                    <th>US F.D.A</th> 
+                                                                    <th>Others1</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Score Repair Series (2k)</td>
+                                                                    <td>Synthetic Resins</td>  
+                                                                    <td>Clear or UV detectable, Retort resistance</td> 
+                                                                    <td><img src="images/chk.png" alt=""></td>
+                                                                    <td><img src="images/chk.png" alt=""></td> 
+                                                                </tr>  
+                                                                <tr>
+                                                                    <td>Score Repair (1k)</td>
+                                                                    <td>Synthetic Resins</td>  
+                                                                    <td>Clear</td> 
+                                                                    <td><img src="images/chk.png" alt=""></td>
+                                                                    <td><img src="images/chk.png" alt=""></td> 
+                                                                </tr>  
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div> 
+                                                <div class="col-xl-12">
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-xl-6 px-xl-1">
+                                                            <br>  
+                                                        
+                                                            <h4><span>WHITE/CLEAR BASE COAT</span></h4>
+                                                            <div class="table-responsive"> 
+                                                                <table class="table">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Series</th>
+                                                                            <th>Application</th>
+                                                                            <th>Properties</th>
+                                                                            <th>US F.D.A</th> 
+                                                                            <th>Others1</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>EP Series</td>
+                                                                            <td>Acrylic</td>  
+                                                                            <td>Excellent Hiding Power and Color Retention</td> 
+                                                                            <td><img src="images/chk.png" alt=""></td>
+                                                                            <td><img src="images/chk.png" alt=""></td> 
+                                                                        </tr>  
+                                                                      <!--   <tr>
+                                                                            <td>Epoxy/Phenolic
+                                                                                Series</td>
+                                                                            <td>Clear/Gold and
+                                                                                Aluminized</td>  
+                                                                            <td>Clear/Gold and
+                                                                                    Aluminized</td> 
+                                                                            <td><img src="images/chk.png" alt=""></td>
+                                                                            <td><img src="images/chk.png" alt=""></td> 
+                                                                        </tr>   -->
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="data-circle" id="dataEnd6">
+                                    <div class="div-table">
+                                        <div class="col">
+                                            <div class="row justify-content-center">
+                                                <div class="col-xl-9">
+                                                    <div class="row">
+                                                        <div class="col-xl-5 col-md-6">
+                                                            <img src="images/SEALANT.gif" alt="" class="img-fluid d-block ml-auto mx-he2">
+                                                        </div>
+                                                        <div class="col-xl-7 col-md-6">
+                                                            <h1><span>
+                                                                WATER-BASED <br>
+                                                                SEALING <br>
+                                                                COMPOUND
+                                                            </span></h1>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h4 class="mt-1 mb-2"><span>FOOD PACKAGING WATER-BASED COMPOUND</span></h4>
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Series Name</th>
+                                                        <th>Application</th>
+                                                        <th>Type of Polymer</th>
+                                                        <th>Oily Food Resistance</th>
+                                                        <th>Example of Packages</th>
+                                                        <th>US F.D.A</th>
+                                                        <th>O.P.P Free</th>
+                                                        <th>Others1</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>F-NS
+                                                            Series</td>
+                                                        <td rowspan="2">Double 
+                                                            Seam
+                                                            Of Sanitary 
+                                                            Can Ends</td>
+                                                        <td>NR+SR
+                                                            (Increase
+                                                            Flexibility)</td>
+                                                        <td>N/R</td>
+                                                        <td rowspan="2">Vegetables, Fruits, Meat, 
+                                                            Fish, Milk, Coffee, Tea, Juice, 
+                                                            Beer, Bamboo shoot, Milk 
+                                                            Powder, Pineapple, 
+                                                            Carbonated, Energy drink, 
+                                                            Soup, Dry pack and Others</td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                    </tr> 
+                                                    <tr>
+                                                        <td>F-S
+                                                            Series</td> 
+                                                        <td>SR</td>
+                                                        <td><img src="images/chk.png" alt=""></td> 
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                    </tr> 
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <h4 class="mt-3 mb-2"><span>BEER AND BEVERAGES PACKAGING COMPOUND</span></h4>
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Series Name</th>
+                                                        <th>Application</th>
+                                                        <th>Type of Polymer</th>
+                                                        <th>Example of Packages</th>
+                                                        <th>US F.D.A</th>
+                                                        <th>O.P.P Free</th>
+                                                        <th>Others1</th>   
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>B-NS
+                                                            Series</td>
+                                                        <td rowspan="2">Double Seam Of Beer and Beverage Can Ends</td>
+                                                        <td>NR+SR</td>
+                                                        <td rowspan="2">Coffee, Tea, Juice, Beer, Carbonated drinks, Energy Drinks</td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                    </tr>  
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <h4 class="mt-3 mb-2"><span>TUBE COMPOUND</span></h4>
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Series Name</th>
+                                                        <th>Application</th>
+                                                        <th>Type of Polymer</th>
+                                                        <th>Example of Packages</th>
+                                                        <th>US F.D.A</th>
+                                                        <th>O.P.P Free</th>
+                                                        <th>Others1</th> 
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>TU Series</td>
+                                                        <td>Aluminium Tubes</td>
+                                                        <td>Composite (SR/NR/PVA)</td>
+                                                        <td>Wide varieties of usage in areas such as ointment, pharmaceutical product, hair product and others</td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                    </tr>  
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="data-circle" id="dataEnd7">
+                                    <div class="div-table">
+                                        <div class="col">
+                                            <div class="row justify-content-center">
+                                                <div class="col-xl-9">
+                                                    <div class="row">
+                                                        <div class="col-xl-5 col-md-6">
+                                                            <img src="images/SEALANT.gif" alt="" class="img-fluid d-block ml-auto mx-he2">
+                                                        </div>
+                                                        <div class="col-xl-7 col-md-6">
+                                                            <h1><span>
+                                                                WATER-BASED <br>
+                                                                SEALING <br>
+                                                                COMPOUND
+                                                            </span></h1>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h4 class="mt-1 mb-2"><span>GENERAL LINE COMPOUND</span></h4>
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Series Name</th>
+                                                        <th>Application</th>
+                                                        <th>Type of Polymer</th>
+                                                        <th>Flexibility Increase</th>
+                                                        <th>Chemical Resistance</th>
+                                                        <th>Example of Packages</th>
+                                                        <th>US F.D.A</th>
+                                                        <th>O.P.P Free</th>
+                                                        <th>Others1</th> 
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>SD Series</td>
+                                                        <td>Double/Triple Seam of Drums</td>
+                                                        <td rowspan="3">NR+SR</td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td rowspan="3">Solvents, oils, fats, emulsion paint and other chemicals</td>
+                                                        <td rowspan="3"><img src="images/chk.png" alt=""></td> 
+                                                        <td rowspan="3"><img src="images/chk.png" alt=""></td> 
+                                                        <td rowspan="3"><img src="images/chk.png" alt=""></td> 
+                                                    </tr> 
+                                                    <tr>
+                                                        <td>SA Series</td> 
+                                                        <td>Aerosol Can Ends</td>
+                                                        <td><img src="images/chk.png" alt=""></td> 
+                                                        <td><img src="images/chk.png" alt=""></td>  
+                                                    </tr> 
+                                                    <tr>
+                                                        <td>SB Series</td> 
+                                                        <td>Double Seam of General Line cans</td> 
+                                                        <td><img src="images/chk.png" alt=""></td>
+                                                        <td><img src="images/chk.png" alt=""></td>  
+                                                    </tr> 
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                        <!-- <br> -->
+
+                                        
+                                        <h4 class="mt-3 mb-2"><span>PVC PLASTISOL COMPOUND</span></h4>
+                                        <!-- </div> -->
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Series Name</th>
+                                                        <th>Application</th>
+                                                        <th>Type of Polymer</th>
+                                                        <th>Example of Packages</th>
+                                                        <th>US F.D.A</th>
+                                                        <th>Non ESBO</th>
+                                                        <th>Non Phthalate</th> 
+                                                        <th>Others1</th> 
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>PVC Series</td>
+                                                        <td>Food and beverage closures and lid covers</td>
+                                                        <td>PVC</td>  
+                                                        <td>Wide varieties of usage in areas such as bamboo shoot, paints, solvents, chicken essence, vegetable oil and other types of packages in composite cans.</td>
+                                                        <td><img src="images/chk.png" alt=""></td> 
+                                                        <td><img src="images/chk.png" alt=""></td> 
+                                                        <td><img src="images/chk.png" alt=""></td> 
+                                                        <td><img src="images/chk.png" alt=""></td> 
+                                                    </tr>  
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="clearfix">&nbsp;</div> 
+                            <div class="clearfix">&nbsp;</div> 
+                            <div class="clearfix">&nbsp;</div> 
+                            <div class="clearfix">&nbsp;</div>  -->
+                        </div> 
+
+                    </div>
+                </div>
+            </div>
+            <div class="section section8 bg-cio"> 
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12"> 
+                            <div class="row justify-content-center h-100 bg-cio">
+                                <div class="col-xl-11"> 
+                                    <div class="col-12 h-100">
+                                        <div class="main">
+                                            <h1 class="h1x">
+                                                <span>R&D Customization and Quality Control</span>
+                                            </h1>
+                                            <h4>R&D Technical Service Process : </h4>
+                                        </div>
+                                    </div> 
+                                </div>
+
+                                
+                                <div class="col-12 box-be px-0"> 
+                                    <ul>
+                                        <li>
+                                            <h3>DISCOVERY</h3>
+                                            <div>
+                                                Technical <br>
+                                                Service <br>
+                                                Requirements <br>
+                                                Identification  
+                                            </div>
+                                            <div>
+                                                Technical <br>
+                                                Solution <br>
+                                                Brainstorms  
+                                            </div>
+                                        </li> 
+                                        <li>
+                                            <h3>RESEARCH & DEVELOPMENT</h3> 
+                                            <div>
+                                                Lab Tests <br>
+                                            </div>
+                                            <div>
+                                                Additives and  <br>
+                                                Other <br>
+                                                Performance <br>
+                                                Enhancements <br>
+                                                Considerations  
+                                            </div>
+                                            <div>
+                                                Lab Sample <br>
+                                                Generation  
+                                            </div>
+                                            <div>
+                                                Customer <br>
+                                                Specific <br>
+                                                Pilot Formula <br>
+                                                Blending  
+                                            </div>
+                                        </li> 
+                                        <li>
+                                            <h3>QUALITY <br>  CONTROL</h3>
+                                            <div class="title-2row">
+                                                Sample <br>
+                                                Quality <br>
+                                                Checking  
+                                            </div>
+                                        </li> 
+                                        <li>
+                                            <h3>DELIVERY</h3>
+                                            <div>
+                                                Logistics <br>
+                                                Coordination <br>
+                                                for Sample <br>
+                                                Delivery  
+                                            </div>
+                                        </li> 
+                                        <li>
+                                            <h3>CLIENT <br> SERVICES</h3>
+                                            <div class="title-2row">
+                                                Onsite/Online <br>
+                                                consultation <br>
+                                                and <br>
+                                                troubleshooting <br>
+                                                by our <br class="br-hide">
+                                                industry <br>
+                                                experts  
+                                            </div>
+                                        </li> 
+                                    </ul>
+                                </div>
+                                
+                                <div class="bg-section8-show d-none"></div>
+
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="section section8 section9"> 
+                <div class="container-fluid">
+                    <div class="row"> 
+                        <div class="col-12 h-100"> 
+                            <div class="row justify-content-center">
+                                <div class="col-xl-9">
+                                    <h1><span>CONTACT US</span></h1>
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-6 col-xl-3 mb-4 mb-xl-0">
+                                            <div class="icon">
+                                                <img src="images/phone-call.gif" class="img-fluid d-block mx-auto">
+                                                <p>
+                                                    Tel. +66-(0)2-683-0008 <br>
+                                                    Fax. +66-(0)2-294-2014
+                                                </p>
+                                            </div> 
+                                        </div>
+                                        <div class="col-lg-6 col-xl-3 mb-4 mb-xl-0">
+                                            <div class="icon">
+                                                <img src="images/envelope.gif" class="img-fluid d-block mx-auto">
+                                                <p>ubisasia@ubisasia.com</p>
+                                            </div> 
+                                        </div>
+                                        <div class="col-lg-6 col-xl-3 mb-4 mb-lg-0">
+                                            <div class="icon">
+                                                <img src="images/monitor.gif" class="img-fluid d-block mx-auto">
+                                                <p>www.ubisasia.com</p>
+                                            </div> 
+                                        </div>
+                                        <div class="col-lg-6 col-xl-3 mb-0">
+                                            <div class="icon">
+                                                <img src="images/file.gif" class="img-fluid d-block mx-auto">
+                                                <p>TAX ID:  <br>  0107547000826</p>
+                                            </div> 
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div> 
+                            <div class="row justify-content-center contact-us-wrapper">
+                                <div class="col-xl-11">  
+                                    <h2><span><a href="https://www.ubisasia.com/" class="d-block text-white"><i class="far fa-angle-right pr-1"></i> TO MAIN WEBSITE</a></span></h2>
+                                    <div class="clearfix">&nbsp;</div> 
+                                    <div class="row align-items-center">
+                                        <div class="col-xl-6 col-lg-6 col-sm-6 my-3 my-sm-0"> 
+                                            <img src="images/LOGO.png" class="logx" height="37px" alt="">
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-sm-6 text-right">
+                                            <h5 class="footer-company-name">
+                                                UBIS (ASIA) PUBLIC CO., LTD.
+                                            </h5>
+                                            <h6 class="footer-company-address">
+                                                238, 15TH FLOOR, UNIT 4-6, TRR TOWER,  <br>
+                                                NARADHIWAS RAJANAGARINDRA ROAD,  <br>
+                                                CHONG NONSI, YANNAWA,  <br>
+                                                BANGKOK 10120, THAILAND
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="clearfix">&nbsp;</div>
+                                    <div class="clearfix">&nbsp;</div> 
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>  
+        </div> 
+
+        <script	script	script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>  
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
+        <!-- <script type="text/javascript" src="js/fullpage.extensions.min.js"></script> -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.6/fullpage.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.6/fullpage.extensions.min.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+        <script>
+            function splash(param) {
+                var time = param;
+                setTimeout(function () {
+                    $('#splashscreen').hide();
+                    $('#mainContain').css('visibility','visible');
+                }, time);
+            };
+
+            $('#carousel-top').carousel({
+                interval: 3000
+            }); 
+
+            $('#carousel-award').owlCarousel({
+                loop:true,
+                autoplay: true,
+                items:0,
+                responsive:{
+                    0:{
+                        items:2,
+                        center:true,
+                        margin:10
+                    },
+                    400:{
+                        items:2,
+                        center:true,
+                        margin:0
+                    },
+                    576:{
+                        items:3,
+                        center:true,
+                        margin:20
+                    },
+                    768:{
+                        items:0,
+                    }
+                }
+            });
+
+            $('#carousel-customer').owlCarousel({
+                loop:true,
+                margin:20,
+                autoplay: true,
+                responsive:{
+                    0:{
+                        items:2,
+                        center:true
+                    },
+                    600:{
+                        items:3,
+                        center:true
+                    },
+                    800:{
+                        items:4
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            });
+            AOS.init();
+        </script>
+        
+        <script type="text/javascript">
+
+            $(document).ready(function() {
+
+                   $('#mainContain').fullpage({   
+                        autoScrolling:true,
+                        slidesNavigation: true,
+                        scrollHorizontally: true, 
+                        anchors: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9'],
+                        lockAnchors:true,
+                        resetSliders: false,
+                        afterSlideLoad: function(section, origin, destination, direction){
+                            console.log({
+                                section: section,
+                                origin: origin,
+                                destination: destination,   
+                                direction: direction
+                            });
+                        },
+                        onSlideLeave: function(section, origin, destination, direction){
+                            console.log({
+                                section: section,
+                                origin: origin,
+                                destination: destination,
+                                direction: direction
+                            });
+                        }, 
+                        scrollingSpeed: 1000,
+                        scrollOverflow: true,
+                    }); 
+
+                $(document).on("click",".tab1m",function(){
+                    $(".tab1m").removeClass("active");
+                    $(this).addClass("active"); 
+                    var idm1 = $(this).attr('data-tab1');
+                    $(".box-circle").removeClass("active");
+                    $("#circle"+idm1).addClass("active");  
+
+                    $(".benefits div").hide();
+                    $(".benefits-circle"+idm1).show();  
+
+                });
+                // $(".tab1m").click(function(){
+                //     $(".tab1m").removeClass("active");
+                //     $(this).addClass("active"); 
+                //     var idm1 = $(this).attr('data-tab1');
+                //     $(".box-circle").removeClass("active");
+                //     $("#circle"+idm1).addClass("active");  
+                // });
+
+                // $(document).ready(function(){
+                //     $(".section1.active").click(function(){
+                //         $("p").slideToggle();
+                //     });
+                // }); 
+
+                // $(".contr").click(function(){ 
+                $(document).on("click",".contr",function(){
+                    var circle = $(".box-circle.active").attr('id'); 
+                    $(".box-circle").removeClass("active");  
+                    $(".tab1m").removeClass("active");
+                    $(".benefits div").hide();
+                    if(circle=="circle1"){ 
+                        $("#circle2").addClass("active");   
+                        $(".tab1m-2").addClass("active");  
+                        $(".benefits-circle2").show();  
+                    } 
+                    else{
+                        $("#circle1").addClass("active");  
+                        $(".tab1m-1").addClass("active");   
+                        $(".benefits-circle1").show();  
+                    } 
+                });
+
+                // $(".blow-circle").click(function(){
+                $(document).on("click",".blow-circle",function(){
+                    $(".blow-circle").removeClass("active"); 
+                    $(this).addClass("active");   
+                    var idm1 = $(this).attr('data-blow');
+                    $(".main2-product").removeClass("active");
+                    $("#main2"+idm1).addClass("active");  
+                    $(".tab2m").removeClass("active");
+                    $(".main2-product .tab2m:nth-child(1)").addClass("active"); 
+                    var id = $(this).attr('data-start'); 
+                    $(".data-circle").removeClass("active");
+                    $("#dataEnd"+id).addClass("active");
+                });
+
+
+                // $(".tab2m").click(function(){
+                $(document).on("click",".tab2m",function(){
+                    $(".tab2m").removeClass("active");
+                    $(this).addClass("active");   
+                    var id = $(this).attr('data-cc');  
+                    $(".data-circle").removeClass("active");
+                    $("#dataEnd"+id).addClass("active");    
+                });
+
+                $(document).on("click",".menu-main ,.btn-go-to-top",function(){
+                    var sectionIndex = $(this).attr('data-section');
+                    var slideIndex = $(this).attr('data-slide') || 0;
+                    fullpage_api.moveTo(sectionIndex, slideIndex);
+                });
+
+                $(document).on("click",".right-menu .btn-menu-fixed-page",function(){
+                    $(".right-menu").toggleClass("active-menu-show");
+                });
+
+                // $('.menu-main').click(function() {
+                //     var target = $(this).attr('href');
+                //     console.log('target : ' + target); 
+                //     $(target).animate({scrollTop : 0},'slow');
+                // });
+
+                // $(document).on("click","#top",function(){
+                //     $('html,body').animate({scrollTop : 0},'slow');
+                // });
+
+                // $('#top').click(function() {
+                //     $('html').animate({scrollTop : 0},'slow');
+                // });
+            });
+
+        </script>
+    </body>
+</html>
