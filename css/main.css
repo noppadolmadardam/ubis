@@ -237,9 +237,13 @@
 
 .fp-section.active [data-aos^=fade][data-aos^=fade] {
     opacity: 1;
+    -webkit-transform: translate3d(0,0,0) !important;
+    -moz-transform: translate3d(0,0,0) !important;
+    -o-transform: translate3d(0,0,0) !important;
+    -ms-transform: translate3d(0,0,0) !important;
     transform: translate3d(0,0,0) !important;
     -webkit-animation: fade-in-top .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-          animation: fade-in-top .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-top .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation-delay: .5s;
 }
 
@@ -304,6 +308,10 @@ a:hover{
   align-items: center;
   left: 50%;
   top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
 /*  margin-top: -40px;
   margin-left: calc(50% - 19px);*/
@@ -314,7 +322,11 @@ a:hover{
   position: relative;
 }
 .intro-info .fp-slidesContainer {
-    transform: translate3d(0, 0, 0) !important;
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  -moz-transform: translate3d(0, 0, 0) !important;
+  -o-transform: translate3d(0, 0, 0) !important;
+  -ms-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
 }
 .intro-info .info{ 
   left: 0;
@@ -327,7 +339,8 @@ a:hover{
 }
 .intro-info .info .vid{ 
   width: 100vw;
-  height: 40%;
+  /*height: 40%;*/
+  height: 80vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -430,8 +443,16 @@ a:hover{
 .carousel-fade .carousel-item.active,
 .carousel-fade .active.carousel-item-left,
 .carousel-fade  .active.carousel-item-prev {
- transform: translateX(0) !important;
- transform: translate3d(0, 0, 0) !important;
+  -webkit-transform: translateX(0) !important;
+  -moz-transform: translateX(0) !important;
+  -o-transform: translateX(0) !important;
+  -ms-transform: translateX(0) !important;
+  transform: translateX(0) !important;
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  -moz-transform: translate3d(0, 0, 0) !important;
+  -o-transform: translate3d(0, 0, 0) !important;
+  -ms-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
 }
 .scoll-x {
   width: 100%;
@@ -474,7 +495,7 @@ a:hover{
   bottom: 0;
   right: 0;
   z-index: 1;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 .section2 .container-fluid{     
@@ -488,22 +509,21 @@ a:hover{
 .section2 .vid{  
   height: 100%;
   position: absolute;
-  /*top: 0;
-  left: 0;*/
-  bottom: -120px;
-  right: -120px;
-  width: 100%;  
+  width: 100%;
   z-index: 1;
-  /*display: none;*/
+  bottom: 0;
+  right: 0;
 }
 .section2 .vid video{ 
   width: 150%;
-  height: 120%;
+  height: 150%;
   max-width: 150%;
   max-height: 120%;  
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  -webkit-transform:rotateY(180deg); /* Safari and Chrome */
-  -moz-transform:rotateY(180deg); /* Firefox */
 }
 .h3x{ 
   font-size: 49px;
@@ -512,7 +532,7 @@ a:hover{
   font-family: gothambold, tahoma;
   z-index: 2;
   position: relative; 
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 } 
 .h3x::after{ 
   content: "";
@@ -523,7 +543,12 @@ a:hover{
   position: absolute; 
   text-align: center;
   left: 0;
-  margin-left: calc(50% - 10px);
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
   margin-top: -30px; 
 } 
 .navbar.fixed-top{
@@ -565,6 +590,9 @@ a:hover{
   margin-top: -35px;
   z-index: -1;
   position: relative;
+}
+.section2 .row-wrapper-sec2 {
+  /*margin-top: 50px;*/
 }
 .section2 h4{ 
   color: #004E1F;
@@ -774,7 +802,11 @@ a:hover{
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 5px 6px #00000029;
   opacity: 1;
-  transform: rotate(45deg); 
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
   margin-left: 93px;
   transition: transform .3s;
 } 
@@ -783,7 +815,11 @@ a:hover{
   z-index: 1;
 }
 .section4 .item-awd .m{ 
-  transform: rotate(-45deg); 
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -851,14 +887,21 @@ a:hover{
 .section5 {
   background-color: #1e9649;
 }
-#sec5{
+#sec5 {
   position: absolute;
   right: 0;
   bottom: 0; 
   width: 100%; 
   height: 100%;
 }
-#sec6{ 
+.sec5{
+  /*position: absolute;*/
+  left: 0;
+  bottom: 0; 
+  width: 100%; 
+  height: 100%;
+}
+.sec6{ 
   left: 0;
   bottom: 0; 
   height: auto;
@@ -887,6 +930,10 @@ a:hover{
   background-size: cover;*/
   min-height: 130vh;
   width: 100vw;
+  -webkit-transform: translateY(-15vh);
+  -moz-transform: translateY(-15vh);
+  -o-transform: translateY(-15vh);
+  -ms-transform: translateY(-15vh);
   transform: translateY(-15vh);
   top: 0 !important;
   position: absolute;
@@ -991,6 +1038,10 @@ a:hover{
   /*left: 0;*/
   /*margin-left: calc(50% - 10px);*/
   left: 50%;
+  -webkit-transform: translateX(50%);
+  -moz-transform: translateX(50%);
+  -o-transform: translateX(50%);
+  -ms-transform: translateX(50%);
   transform: translateX(50%);
   margin-top: -35px;
   margin-bottom: 50px;
@@ -1136,7 +1187,12 @@ a:hover{
   position: absolute; 
   text-align: center;
   left: 0;
-  margin-left: calc(50% - 10px);
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
   margin-top: -30px; 
   color: #004E1F;
 } 
@@ -1148,6 +1204,9 @@ a:hover{
   text-align: center;
   margin-bottom: 25px;
 } 
+.img-data-end img {
+  float: left;
+}
 .main1-product{
   justify-content: center;
   display: flex;
@@ -1230,16 +1289,16 @@ a:hover{
   left: 0;
   position: absolute;
   z-index: 3;
-  padding-left: 90px;
-  margin-top: -100px;
+  padding-left: 100px;
+  margin-top: -95px
 }
 .box-circle.circle1 img{
   max-height: 350px;
 }
 .box-circle.circle2 img{
-  margin-top: 70px;
-  max-height: 400px;
-  margin-left: 110px;
+  margin-top: 100px;
+  max-height: 350px;
+  margin-left: 160px;
 }
 .contr{
   width: 100%;
@@ -1294,12 +1353,20 @@ a:hover{
   margin-right: auto; 
 }
 .arrow img:nth-child(1){
+  -webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -o-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
   transform: rotate(40deg);
 }
 .arrow img:nth-child(2){  
   margin-top: 45px;
 }
 .arrow img:nth-child(3){
+  -webkit-transform: rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -o-transform: rotate(-40deg);
+  -ms-transform: rotate(-40deg);
   transform: rotate(-40deg);
 }
 .tab-circle{ 
@@ -1339,7 +1406,8 @@ a:hover{
 }
 .blow-circle .outer{
   border-radius: 100%;
-  outline: 1px solid #00993F;
+  /*outline: 1px solid #00993F;*/
+  border: 1px solid #00993F;
   width: 100%;
   height: 100%;
   padding: 20px;
@@ -1555,9 +1623,17 @@ a:hover{
   transition: .5s all;
   display: flex;
   width: 500px;
+  -webkit-transform: translateX(450px);
+  -moz-transform: translateX(450px);
+  -o-transform: translateX(450px);
+  -ms-transform: translateX(450px);
   transform: translateX(450px);
 }
 .right-menu.active-menu-show {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -o-transform: translateX(0);
+  -ms-transform: translateX(0);
   transform: translateX(0);
 }
 .right-menu .btn{
@@ -1805,7 +1881,13 @@ a:hover{
     margin-left: -8px;
   }
   .intro-info .info .vid {
-    height: 32%;
+    height: 40%;
+    /*height: 75vh;*/
+  }
+  .intro-info .info .vid video {
+    margin-left: -270px;
+    width: 250%;
+    max-width: 250%;
   }
   .scoll-x div {
     font-size: 13px;
@@ -1844,12 +1926,15 @@ a:hover{
   .section2 .item-ab img {
     height: 205px;
   }
-  .section2 .vid video {
+  /*.section2 .vid video {
     width: 140%;
-  }
+  }*/
   .data-circle {
     flex-wrap: wrap;
     gap: 2rem 0rem;
+  }
+  .section2 .vid {
+
   }
 }
 
@@ -1870,9 +1955,9 @@ a:hover{
     font-size: 15px;
     line-height: 14px;
   }*/
-  .section2 .vid video {
+ /* .section2 .vid video {
     width: 130%;
-  }
+  }*/
   .section4 .label1 {
     top: 50px;
     left: 0;
@@ -1990,6 +2075,9 @@ a:hover{
   .carousel-inner {
     max-width: 65%;
   }
+  .intro-info .info .vid video {
+    margin-left: -200px;
+  }
   .navbar.fixed-top .navbar-brand {
     /*padding-left: 25px !important;*/
     padding-left: 5px !important;
@@ -2010,7 +2098,7 @@ a:hover{
     width: 100%;
     justify-content: center;
     margin: auto;
-    max-width: 80%;
+    max-width: 70%;
   }
   .section3 .col-item {
     height: auto;
@@ -2024,8 +2112,8 @@ a:hover{
   }
   .section3 .item-our {
     margin: 0 !important;
-    height: 310px;
-    width: 310px;
+    height: 270px;
+    width: 270px;
   }
   .section3 p {
     margin: 0 !important;
@@ -2040,7 +2128,7 @@ a:hover{
     line-height: 18px;
   }
   .section3 .row-wrapper {
-    margin-top: 0 !important;
+    margin-top: 35px !important;
   }
   .wrapper-customer-section {
     width: calc(100% - 80px);
@@ -2061,7 +2149,14 @@ a:hover{
     margin-left: 3%;
   }
   .splashscreen {
+    -webkit-transform: scale(1.1) translateY(-22.5vw);
+    -moz-transform: scale(1.1) translateY(-22.5vw);
+    -o-transform: scale(1.1) translateY(-22.5vw);
+    -ms-transform: scale(1.1) translateY(-22.5vw);
     transform: scale(1.1) translateY(-22.5vw);
+  }
+  .section2 .vid video{ 
+    max-height: 150%;  
   }
 }   
 
@@ -2142,6 +2237,8 @@ a:hover{
   }
   .section3 .item-our {
     align-items: start;
+    height: 310px;
+    width: 310px;
   }
   .wrapper-customer-section {
     width: calc(100% - 25px);
@@ -2173,6 +2270,12 @@ a:hover{
     max-height: 250px;
     width: auto;
     margin: auto;
+  }
+  .img-data-end {
+    margin-top: 10px;
+  }
+  .img-data-end img {
+    float: none;
   }
   .section8 .h1x {
     font-size: 24px;
@@ -2239,6 +2342,10 @@ a:hover{
   .box-circle.circle2 img {
     max-height: 250px;
   }
+  .box-circle.circle2 img{
+    margin-top: -20px;
+    margin-left: 0;
+  }
   .box-circle .text,
   .box-circle .text2 {
     width: 100%;
@@ -2253,6 +2360,7 @@ a:hover{
   .section7 .hx {
     font-size: 26px;
     line-height: 25px;
+    margin-top: 70px;  
   }
   .section7 h1 {
     font-size: 26px;
@@ -2277,6 +2385,7 @@ a:hover{
   .section7 .hx::after {
     width: 11px;
     height: 11px;
+    margin-top: -25px;
   }
   .data-circle .data-circle-img {
     max-width: 220px;
@@ -2294,13 +2403,25 @@ a:hover{
     margin-bottom: 20px;
   }
   .splashscreen {
+    -webkit-transform: scale(1.1) translateY(-13.5vh);
+    -moz-transform: scale(1.1) translateY(-13.5vh);
+    -o-transform: scale(1.1) translateY(-13.5vh);
+    -ms-transform: scale(1.1) translateY(-13.5vh);
     transform: scale(1.1) translateY(-13.5vh);
+  }
+  .section2 .vid video{ 
+    max-height: 200%;
+    height: 180%;
   }
 }
 
 @media only screen and (max-width: 575px) { 
   .right-menu {
     width: 300px;
+    -webkit-transform: translateX(250px);
+    -moz-transform: translateX(250px);
+    -o-transform: translateX(250px);
+    -ms-transform: translateX(250px);
     transform: translateX(250px);
   }
   .right-menu .btn {
@@ -2327,7 +2448,7 @@ a:hover{
     border: 7px solid #fff;
     margin-top: -30px;
   }
-  .section2 .vid {
+/*  .section2 .vid {
     bottom: -55px;
     right: 230px;
   }
@@ -2336,7 +2457,7 @@ a:hover{
     height: 140%;
     max-width: unset;
     max-height: unset;
-  }
+  }*/
   .section4 .wrapper-award-slide .owl-carousel .owl-item img {
     max-height: 220px;
   }
@@ -2451,6 +2572,7 @@ a:hover{
   .section7 .hx {
     font-size: 23px;
     line-height: 26px;
+    margin-top: 65px;  
   }
   .section7 h1 {
     font-size: 23px;
@@ -2484,6 +2606,7 @@ a:hover{
   .section7 .hx::after {
     width: 8px;
     height: 8px;
+    margin-top: -15px;
   }
   .box-circle.circle2 img {
     margin: 0;
@@ -2503,10 +2626,13 @@ a:hover{
   .div-circle h3 {
     font-size: 16px;
     line-height: 17px;
+    margin-right: 0;
+    padding: 0;
   }
   .div-circle p {
     font-size: 12px;
     line-height: 13px;
+    padding: 0;
   }
   .div-table h3 {
     font-size: 16px;
@@ -2627,7 +2753,7 @@ a:hover{
   .carousel-inner {
     /*top: -10vh*/
   }
-  .intro-info .info .vid {
+/*  .intro-info .info .vid {
     height: 35%;
-  }
+  }*/
 }
