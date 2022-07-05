@@ -2158,6 +2158,9 @@ a:hover{
   .section2 .vid video{ 
     max-height: 150%;  
   }
+  .container-product-table {
+    /*max-width: 92% !important; */
+  }
 }   
 
 @media only screen and (max-width: 767px) { 
@@ -2364,7 +2367,7 @@ a:hover{
   }
   .section7 h1 {
     font-size: 26px;
-    line-height: 25px;
+    line-height: 30px;
   }
   .tab1m {
     font-size: 14px;
