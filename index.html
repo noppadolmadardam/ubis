@@ -438,48 +438,48 @@
                 </div>
             </div>  
             <div class="section section5">
-                <div>
-                    <video data-autoplay muted preload="none" width="100%" height="auto" playsinline src="images/MARKET-MAP-1920P-x2.mp4" class="sec5 d-none d-xl-block">
+                <div style="min-height: 600px;">
+                    <video data-autoplay muted playsinline src="images/MARKET-MAP-1920P-x2.mp4" class="sec5 d-none d-xl-block">
                         <source src="images/MARKET-MAP-1920P.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
-                    <video data-autoplay muted preload="none" width="100%" height="auto" playsinline src="images/MARKET-MAP-1280P-x2.mp4" class="sec5 d-none d-lg-block d-xl-none">
+                    <video data-autoplay muted playsinline src="images/MARKET-MAP-1280P-x2.mp4" class="sec5 d-none d-lg-block d-xl-none">
                         <source src="images/MARKET-MAP-1280P.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
-                    <video data-autoplay muted preload="none" width="100%" height="auto" playsinline src="images/MARKET-MAP-IPAD-x2.mp4" class="sec5 d-none d-md-block d-lg-none">
+                    <video data-autoplay muted playsinline src="images/MARKET-MAP-IPAD-x2.mp4" class="sec5 d-none d-md-block d-lg-none">
                         <source src="images/MARKET-MAP-IPAD.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
-                    <!-- <video data-autoplay muted preload="none" width="100%" height="auto" playsinline src="images/MARKET-MAP-PHONE-x2.mp4" class="sec5 d-none d-sm-block d-md-none">
+                    <!-- <video data-autoplay muted playsinline src="images/MARKET-MAP-PHONE-x2.mp4" class="sec5 d-none d-sm-block d-md-none">
                         <source src="images/MARKET-MAP-PHONE-2.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video> -->
-                    <video data-autoplay muted preload="none" width="100%" height="auto" playsinline src="images/MARKET-MAP-PHONE-x2.mp4" class="sec5 d-block d-md-none">
+                    <video data-autoplay muted playsinline src="images/MARKET-MAP-PHONE-x2.mp4" class="sec5 d-block d-md-none">
                         <source src="images/MARKET-MAP-PHONE.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
                 </div>
             </div>
             <div class="section section6">
-                <div>
-                    <video data-autoplay muted preload="none" width="100%" height="auto" playsinline src="images/TIMELINE-1920P-x2.mp4" class="sec6 d-none d-xl-block">
+                <div style="min-height: 600px;">
+                    <video data-autoplay muted playsinline src="images/TIMELINE-1920P-x2.mp4" class="sec6 d-none d-xl-block">
                         <source src="images/TIMELINE-1920P-x2.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
-                    <video data-autoplay muted preload="none" width="100%" height="auto" playsinline src="images/TIMELINE-1280P-x2.mp4" class="sec6 d-none d-lg-block d-xl-none">
+                    <video data-autoplay muted playsinline src="images/TIMELINE-1280P-x2.mp4" class="sec6 d-none d-lg-block d-xl-none">
                         <source src="images/TIMELINE-1280P-x2.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
-                    <video data-autoplay muted preload="none" width="100%" height="auto" playsinline src="images/TIMELINE-IPAD-x2.mp4" class="sec6 d-none d-md-block d-lg-none">
+                    <video data-autoplay muted playsinline src="images/TIMELINE-IPAD-x2.mp4" class="sec6 d-none d-md-block d-lg-none">
                         <source src="images/TIMELINE-IPAD-x2.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
-                    <video data-autoplay muted preload="none" width="100%" height="auto" playsinline src="images/TIMELINE-PHONE-x2.mp4" class="sec6 d-none d-sm-block d-md-none">
+                    <video data-autoplay muted playsinline src="images/TIMELINE-PHONE-x2.mp4" class="sec6 d-none d-sm-block d-md-none">
                         <source src="images/TIMELINE-PHONE-x2.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
-                    <video data-autoplay muted preload="none" width="100%" height="auto" playsinline src="images/TIMELINE-PHONE.mp4" class="sec6 d-block d-sm-none">
+                    <video data-autoplay muted playsinline src="images/TIMELINE-PHONE.mp4" class="sec6 d-block d-sm-none">
                         <source src="images/TIMELINE-PHONE.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
@@ -1527,39 +1527,41 @@
 
             $(document).ready(function() {
 
-                   $('#mainContain').fullpage({   
-                        autoScrolling:true,
-                        slidesNavigation: true,
-                        scrollHorizontally: true, 
-                        anchors: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9'],
-                        lockAnchors:true,
-                        resetSliders: false,
-                        afterSlideLoad: function(section, origin, destination, direction){
-                            console.log({
-                                section: section,
-                                origin: origin,
-                                destination: destination,   
-                                direction: direction
-                            });
-                        },
-                        onSlideLeave: function(section, origin, destination, direction){
-                            console.log({
-                                section: section,
-                                origin: origin,
-                                destination: destination,
-                                direction: direction
-                            });
-                        }, 
-                        // afterRender: function () {
-                        //     $('video').each(function () {
-                        //         if ($(this).is(":in-viewport")) {
-                        //             $(this)[0].play();
-                        //         }
-                        //     });
-                        // },
-                        scrollingSpeed: 1000,
-                        scrollOverflow: true,
-                    }); 
+                document.querySelector('video').play();
+
+               $('#mainContain').fullpage({   
+                    autoScrolling:true,
+                    slidesNavigation: true,
+                    scrollHorizontally: true, 
+                    anchors: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9'],
+                    lockAnchors:true,
+                    resetSliders: false,
+                    afterSlideLoad: function(section, origin, destination, direction){
+                        console.log({
+                            section: section,
+                            origin: origin,
+                            destination: destination,   
+                            direction: direction
+                        });
+                    },
+                    onSlideLeave: function(section, origin, destination, direction){
+                        console.log({
+                            section: section,
+                            origin: origin,
+                            destination: destination,
+                            direction: direction
+                        });
+                    }, 
+                    // afterRender: function () {
+                    //     $('video').each(function () {
+                    //         if ($(this).is(":in-viewport")) {
+                    //             $(this)[0].play();
+                    //         }
+                    //     });
+                    // },
+                    scrollingSpeed: 1000,
+                    scrollOverflow: true,
+                }); 
 
                 $(document).on("click",".tab1m",function(){
                     $(".tab1m").removeClass("active");
