@@ -926,33 +926,6 @@ a:hover{
   background-color: #fff; 
 }
 
-video {
-  pointer-events: none !important;
-}
-
-video::-webkit-media-controls {
-  display: none !important;
-}
-
-video::-webkit-media-controls-start-playback-button {
-  display: none !important;
-}
-
-video::-webkit-media-controls-panel {
-  display: none !important;
-}
-
-/* Could Use thise as well for Individual Controls */
-video::-webkit-media-controls-play-button {display: none !important;}
-
-video::-webkit-media-controls-volume-slider {display: none !important;}
-
-video::-webkit-media-controls-mute-button {display: none !important;}
-
-video::-webkit-media-controls-timeline {display: none !important;}
-
-video::-webkit-media-controls-current-time-display {display: none !important;}
-
 .splashscreen{ 
   background-color: #fff; 
   /*height: 100vh; 
@@ -960,18 +933,39 @@ video::-webkit-media-controls-current-time-display {display: none !important;}
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;*/
-  min-height: 130vh;
+
+  /*min-height: 130vh;
   width: 100vw;
   -webkit-transform: translateY(-15vh);
   -moz-transform: translateY(-15vh);
   -o-transform: translateY(-15vh);
   -ms-transform: translateY(-15vh);
-  transform: translateY(-15vh);
+  transform: translateY(-15vh);*/
+  min-height: 160vh;
+  width: 160vw;
+  -webkit-transform: translate(-30vw,-30vh);
+  -moz-transform: translate(-30vw,-30vh);
+  -o-transform: translate(-30vw,-30vh);
+  -ms-transform: translate(-30vw,-30vh);
+  transform: translate(-30vw,-30vh);
+
   top: 0 !important;
   position: absolute;
   z-index: 9;
   transition: .33s all ease-out; 
 } 
+
+@media (max-width: 1199px) {
+  .splashscreen { 
+  /*min-height: 150vh;
+  width: 150vw;
+  -webkit-transform: translateY(-25vh);
+  -moz-transform: translateY(-25vh);
+  -o-transform: translateY(-25vh);
+  -ms-transform: translateY(-25vh);
+  transform: translateY(-25vh);*/
+  }
+}
 
 .section8 .h50{
   background: transparent linear-gradient(180deg, #00983F 0%, #004C20 100%) 0% 0% no-repeat padding-box;
@@ -1724,6 +1718,20 @@ video::-webkit-media-controls-current-time-display {display: none !important;}
   display: none !important;
 }
 
+
+@media (min-width: 769px) {
+  .d-md-none {
+    display: none!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .d-block {
+    display: block!important;
+  }
+  
+}
+
 @media screen and (max-width: 1650px) { /* WEB 1650 */
   .section2 h4 {
     font-size: 30px;
@@ -1976,7 +1984,7 @@ video::-webkit-media-controls-current-time-display {display: none !important;}
 
 @media screen and (max-width: 1199px) { /* WEB1200 */
   .section2 .h3x {
-    margin-top: 45px;
+    /*margin-top: 45px;*/
   }
   .section2 .item-ab {
     height: 300px;
@@ -2188,11 +2196,11 @@ video::-webkit-media-controls-current-time-display {display: none !important;}
     margin-left: 3%;
   }
   .splashscreen {
-    -webkit-transform: scale(1.1) translateY(-22.5vw);
-    -moz-transform: scale(1.1) translateY(-22.5vw);
-    -o-transform: scale(1.1) translateY(-22.5vw);
-    -ms-transform: scale(1.1) translateY(-22.5vw);
-    transform: scale(1.1) translateY(-22.5vw);
+    /*-webkit-transform: scale(1.2) translateY(-15vw);
+    -moz-transform: scale(1.2) translateY(-15vw);
+    -o-transform: scale(1.2) translateY(-15vw);
+    -ms-transform: scale(1.2) translateY(-15vw);
+    transform: scale(1.2) translateY(-15vw);*/
   }
   /*.section2 .vid video{ 
     max-height: 150%;  
@@ -2445,11 +2453,11 @@ video::-webkit-media-controls-current-time-display {display: none !important;}
     margin-bottom: 20px;
   }
   .splashscreen {
-    -webkit-transform: scale(1.1) translateY(-13.5vh);
+    /*-webkit-transform: scale(1.1) translateY(-13.5vh);
     -moz-transform: scale(1.1) translateY(-13.5vh);
     -o-transform: scale(1.1) translateY(-13.5vh);
     -ms-transform: scale(1.1) translateY(-13.5vh);
-    transform: scale(1.1) translateY(-13.5vh);
+    transform: scale(1.1) translateY(-13.5vh);*/
   }
   .section2 .vid video{ 
     max-height: 200%;
