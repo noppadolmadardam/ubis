@@ -1535,7 +1535,11 @@
                 // }
 
                 function is_iPhone_or_iPod(){
-                     return navigator.platform.match(/i(Phone|Pod))/i)
+                return (
+                        (navigator.userAgent.toLowerCase().indexOf("ipad") > -1) ||
+                        (navigator.userAgent.toLowerCase().indexOf("iphone") > -1) ||
+                        (navigator.userAgent.toLowerCase().indexOf("ipod") > -1)
+                    );
                 }
 
                 if(is_iPhone_or_iPod()) {
