@@ -1720,13 +1720,13 @@ a:hover{
 
 
 @media (min-width: 769px) {
-  .d-md-none {
+  #splashscreen .d-md-none {
     display: none!important;
   }
 }
 
 @media (max-width: 768px) {
-  .d-block {
+  #splashscreen .d-block {
     display: block!important;
   }
   
