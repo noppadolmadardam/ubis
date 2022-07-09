@@ -1530,8 +1530,15 @@
                 // setTimeout(function() {
                 //     document.querySelector('video').play();
                 // }, 500);
-                console.log('document : ' + $(document).width());
-                if($(document).width() <= 992) {
+                // console.log('document : ' + $(document).width());
+                // if($(document).width() <= 992) {
+                // }
+
+                function is_iPhone_or_iPod(){
+                     return navigator.platform.match(/i(Phone|Pod))/i)
+                }
+
+                if(is_iPhone_or_iPod()) {
                     $("video").prop("controls",true); 
                 }
 
@@ -1549,7 +1556,7 @@
                             destination: destination,   
                             direction: direction
                         });
-                        document.querySelector('video').play();
+                        // document.querySelector('video').play();
                     },
                     onSlideLeave: function(section, origin, destination, direction){
                         console.log({
