@@ -1530,6 +1530,10 @@
                 // setTimeout(function() {
                 //     document.querySelector('video').play();
                 // }, 500);
+                console.log('document : ' + $(document).width());
+                if($(document).width() <= 992) {
+                    $("video").prop("controls",true); 
+                }
 
                $('#mainContain').fullpage({   
                     autoScrolling:true,
@@ -1545,6 +1549,7 @@
                             destination: destination,   
                             direction: direction
                         });
+                        document.querySelector('video').play();
                     },
                     onSlideLeave: function(section, origin, destination, direction){
                         console.log({
