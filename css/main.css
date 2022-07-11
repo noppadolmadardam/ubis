@@ -478,10 +478,6 @@ a:hover{
   overflow: hidden !important; 
   z-index: 8 !important; 
 }   
-.section3 {
-  /*padding-top: 100px;*/
-  /*overflow: hidden !important; */
-}  
 .section3 .row-wrapper {
   height: 100vh;
   margin-top: -60px;
@@ -1721,15 +1717,42 @@ a:hover{
 
 @media (min-width: 769px) {
   #splashscreen .d-md-none {
-    display: none!important;
+    /*display: none!important;*/
   }
 }
 
 @media (max-width: 768px) {
   #splashscreen .d-block {
-    display: block!important;
+    /*display: block!important;*/
   }
-  
+}
+
+@media (min-width: 1200px) {
+  .pc-block {
+    display: block !important;
+  }
+  .ip-block, .mb-block {
+    display: none !important;
+  }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1199px) { /* WEB769 to WEB 1199 */
+  .ip-block {
+    display: block;
+  }
+  .pc-block, .mb-block {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .mb-block {
+    display: block;
+  }
+  .pc-block, .ip-block {
+    display: none !important;
+  }
 }
 
 @media screen and (max-width: 1650px) { /* WEB 1650 */
@@ -1751,6 +1774,15 @@ a:hover{
   .section3 p {
     font-size: 18px;
     line-height: 21px;
+  }
+  .splashscreen {
+    min-height: 155vh;
+    width: 155vw;
+    -webkit-transform: translate(-27.5vw,-27.5vh);
+    -moz-transform: translate(-27.5vw,-27.5vh);
+    -o-transform: translate(-27.5vw,-27.5vh);
+    -ms-transform: translate(-27.5vw,-27.5vh);
+    transform: translate(-27.5vw,-27.5vh);
   }
 }
 
@@ -2139,6 +2171,9 @@ a:hover{
     font-size: 15px;
     line-height: 18px;
   }
+  .h3x::after{
+    margin-top: -20px;
+  }
   .section3 .main-col {
     flex-direction: column;
     width: 100%;
@@ -2176,6 +2211,8 @@ a:hover{
   }
   .section3 .row-wrapper {
     margin-top: 35px !important;
+    /*min-height: 900px;*/
+    height: auto;
   }
   .wrapper-customer-section {
     width: calc(100% - 80px);
@@ -2709,6 +2746,18 @@ a:hover{
   }
   .div-table table tbody tr td img {
     max-width: 16px;
+  }
+  .splashscreen {
+    min-height: 130vh;
+    width: 130vw;
+    -webkit-transform: translate(-15vw,-15vh);
+    -moz-transform: translate(-15vw,-15vh);
+    -o-transform: translate(-15vw,-15vh);
+    -ms-transform: translate(-15vw,-15vh);
+    transform: translate(-15vw,-15vh);
+  }
+  #dataEnd1 {
+    min-height: 2000px;
   }
 }
 
