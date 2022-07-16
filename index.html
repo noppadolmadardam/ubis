@@ -1525,19 +1525,19 @@
         </script>
         
         <script type="text/javascript">
-
-            var playPromise = video.play();
+            var getVdo = document.querySelector("video");
+            var playPromise = getVdo.play();
  
             if (playPromise !== undefined) {
                 playPromise.then(_ => {
                   // Automatic playback started!
                   // Show playing UI.
-                  video.play();
+                  getVdo.play();
                 })
                 .catch(error => {
                   // Auto-play was prevented
                   // Show paused UI.
-                  video.play();
+                  getVdo.play();
                 });
             }
 
