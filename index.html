@@ -1526,6 +1526,21 @@
         
         <script type="text/javascript">
 
+            var playPromise = video.play();
+ 
+            if (playPromise !== undefined) {
+                playPromise.then(_ => {
+                  // Automatic playback started!
+                  // Show playing UI.
+                  video.play();
+                })
+                .catch(error => {
+                  // Auto-play was prevented
+                  // Show paused UI.
+                  video.play();
+                });
+            }
+
             jQuery(function($) { 
                 $('#mainContain').fullpage({   
                     // autoScrolling:true,
