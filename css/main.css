@@ -2251,7 +2251,15 @@ a:hover{
   .container-product-table {
     /*max-width: 92% !important; */
   }
+  
 }   
+
+@media only screen and (max-height: 749px) { 
+  .section2 .container-fluid{     
+    height: auto !important;
+    min-height: 100vh !important;
+  }
+}
 
 @media only screen and (max-width: 767px) { 
   .navbar.fixed-top {
