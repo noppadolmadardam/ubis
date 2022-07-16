@@ -2254,10 +2254,14 @@ a:hover{
   
 }   
 
-@media only screen and (max-height: 749px) { 
+@media only screen and (max-height: 699px) { 
   .section2 .container-fluid{     
     height: auto !important;
-    min-height: 100vh !important;
+    max-height: none !important;
+    margin-top: 35px !important;
+  }
+  .section2 .container-fluid .row {
+    height: auto !important;
   }
 }
 
