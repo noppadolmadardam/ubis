@@ -1558,21 +1558,15 @@
             $(document).ready(function() {
 
                 // var getVdo = document.querySelector("video");
-                // var playPromise = getVdo.play();
-                var playPromise = document.querySelector('video').play();
+                // var playPromise = document.querySelector('video').play();
      
-                if (playPromise !== undefined) {
-                    playPromise.then(_ => {
-                      // Automatic playback started!
-                      // Show playing UI.
-                      // getVdo.play();
-                    })
-                    .catch(error => {
-                      // Auto-play was prevented
-                      // Show paused UI.
-                      // getVdo.play();
-                    });
-                }
+                // if (playPromise !== undefined) {
+                //     playPromise.then(_ => {
+                //     })
+                //     .catch(error => {
+                //       getVdo.play();
+                //     });
+                // }
 
                 $(document).on("click",".tab1m",function(){
                     $(".tab1m").removeClass("active");
