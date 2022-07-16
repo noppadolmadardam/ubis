@@ -2263,6 +2263,10 @@ a:hover{
   .section2 .container-fluid .row {
     height: auto !important;
   }
+  .section2 .wrapper-vid-about {
+    -webkit-transform: translateY(5%);
+    transform: translateY(5%);
+  }
 }
 
 @media only screen and (max-width: 767px) { 
