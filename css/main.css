@@ -1497,6 +1497,7 @@ a:hover{
   color: #B2B0A4;
   position: relative;
   transition: .3s ease-out; 
+  text-align: center;
 }
 .tab2m.active{
   background-color: #B2B0A4;
@@ -2254,6 +2255,12 @@ a:hover{
   
 }   
 
+@media only screen and (max-height: 749px) { 
+  .section2 .wrapper-vid-about {
+    display: none;
+  }
+}
+
 @media only screen and (max-height: 699px) { 
   .section2 .container-fluid{     
     height: auto !important;
@@ -2264,9 +2271,9 @@ a:hover{
     height: auto !important;
   }
   .section2 .wrapper-vid-about {
-    display: none;
-    -webkit-transform: translateY(5%);
-    transform: translateY(5%);
+    /*display: none;*/
+    /*-webkit-transform: translateY(5%);*/
+    /*transform: translateY(5%);*/
   }
 }
 
@@ -2781,6 +2788,24 @@ a:hover{
   }
   #dataEnd1 {
     min-height: 2000px !important;
+  }
+  #dataEnd2 {
+    min-height: 1700px !important;
+  }
+  #dataEnd3 {
+    min-height: 800px !important;
+  }
+  #dataEnd4 {
+    min-height: 750px !important;
+  }
+  #dataEnd5 {
+    min-height: 1300px !important;
+  }
+  #dataEnd6 {
+    min-height: 800px !important;
+  }
+  #dataEnd7 {
+    min-height: 800px !important;
   }
 }
 
