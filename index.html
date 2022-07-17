@@ -1264,10 +1264,10 @@
                                 </div>
                             </div>
 
-                            <!-- <div class="clearfix">&nbsp;</div> 
                             <div class="clearfix">&nbsp;</div> 
                             <div class="clearfix">&nbsp;</div> 
-                            <div class="clearfix">&nbsp;</div>  -->
+                            <div class="clearfix">&nbsp;</div> 
+                            <div class="clearfix">&nbsp;</div> 
                         </div> 
 
                     </div>
@@ -1359,6 +1359,8 @@
                                             </div>
                                         </li> 
                                     </ul>
+                                    <div class="clearfix">&nbsp;</div>
+                                    <div class="clearfix">&nbsp;</div> 
                                 </div>
                                 
                                 <div class="bg-section8-show d-none"></div>
@@ -1557,16 +1559,16 @@
 
             $(document).ready(function() {
 
-                // var getVdo = document.querySelector("video");
-                // var playPromise = document.querySelector('video').play();
+                var getVdo = document.querySelector("video");
+                var playPromise = document.querySelector('video').play();
      
-                // if (playPromise !== undefined) {
-                //     playPromise.then(_ => {
-                //     })
-                //     .catch(error => {
-                //       getVdo.play();
-                //     });
-                // }
+                if (playPromise !== undefined) {
+                    playPromise.then(_ => {
+                    })
+                    .catch(error => {
+                      getVdo.play();
+                    });
+                }
 
                 $(document).on("click",".tab1m",function(){
                     $(".tab1m").removeClass("active");
