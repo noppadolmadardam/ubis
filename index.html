@@ -1547,9 +1547,6 @@
                             direction: direction
                         });
                     },
-                    afterLoad: function(origin, destination, direction) {
-                        fullpage_api.reBuild();
-                    },
                     onSlideLeave: function(section, origin, destination, direction){
                         console.log({
                             section: section,
@@ -1558,6 +1555,12 @@
                             direction: direction
                         });
                     }, 
+                    afterLoad: function(origin, destination, direction) {
+                        fullpage_api.reBuild();
+                    },
+                    afterResize: function() {
+                        fullpage_api.reBuild();
+                      },
                     scrollingSpeed: 1000,
                 }); 
             });
