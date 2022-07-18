@@ -1533,9 +1533,10 @@
             jQuery(function($) { 
 
                 $('#mainContain').fullpage({   
-                    // autoScrolling:true,
+                    autoScrolling:true,
                     slidesNavigation: true,
                     scrollHorizontally: true, 
+                    scrollOverflow:true,
                     anchors: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9'],
                     lockAnchors:true,
                     afterSlideLoad: function(section, origin, destination, direction){
@@ -1545,6 +1546,7 @@
                             destination: destination,   
                             direction: direction
                         });
+                        fullpage_api.reBuild();
                     },
                     onSlideLeave: function(section, origin, destination, direction){
                         console.log({
