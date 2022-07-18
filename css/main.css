@@ -2787,7 +2787,7 @@ a:hover{
     transform: translate(-15vw,-15vh);
   }
   #dataEnd1 {
-    min-height: 2000px !important;
+    min-height: 2100px !important;
   }
   #dataEnd2 {
     min-height: 1700px !important;
@@ -2796,16 +2796,16 @@ a:hover{
     min-height: 800px !important;
   }
   #dataEnd4 {
-    min-height: 750px !important;
+    min-height: 800px !important;
   }
   #dataEnd5 {
-    min-height: 1300px !important;
+    min-height: 1400px !important;
   }
   #dataEnd6 {
-    min-height: 800px !important;
+    min-height: 900px !important;
   }
   #dataEnd7 {
-    min-height: 800px !important;
+    min-height: 900px !important;
   }
 }
 
