@@ -2331,6 +2331,9 @@ a:hover{
   .section8.section.fp-section,
   .section7.section.fp-section {
     height: auto !important; 
+    display: block !important;
+    overflow-y: scroll;
+    outline: none;
   }
   .section1 p {
     margin: 0 auto !important;
