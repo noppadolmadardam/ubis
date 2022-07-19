@@ -2823,7 +2823,7 @@ a:hover{
     -ms-transform: translate(-15vw,-15vh);
     transform: translate(-15vw,-15vh);
   }
-  #dataEnd1 {
+/*  #dataEnd1 {
     min-height: 2000px !important;
   }
   #dataEnd2 {
@@ -2843,7 +2843,7 @@ a:hover{
   }
   #dataEnd7 {
     min-height: 900px !important;
-  }
+  }*/
 }
 
 @media only screen and (max-width: 399px) { 

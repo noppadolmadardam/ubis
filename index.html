@@ -1539,22 +1539,6 @@
                     scrollOverflow:true,
                     anchors: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9'],
                     lockAnchors:true,
-                    afterSlideLoad: function(section, origin, destination, direction){
-                        console.log({
-                            section: section,
-                            origin: origin,
-                            destination: destination,   
-                            direction: direction
-                        });
-                    },
-                    onSlideLeave: function(section, origin, destination, direction){
-                        console.log({
-                            section: section,
-                            origin: origin,
-                            destination: destination,
-                            direction: direction
-                        });
-                    }, 
                     afterLoad: function(origin, destination, direction) {
                         fullpage_api.reBuild();
                     },
