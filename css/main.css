@@ -119,118 +119,118 @@
 
  @-webkit-keyframes fade-in-top {
   0% {
+    transform: translateY(-100px);
     -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
     opacity: 0;
   }
   100% {
+    transform: translateY(0);
     -webkit-transform: translateY(0);
-            transform: translateY(0);
     opacity: 1;
   }
 }
 @keyframes fade-in-top {
   0% {
+    transform: translateY(-100px);
     -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
     opacity: 0;
   }
   100% {
+    transform: translateY(0);
     -webkit-transform: translateY(0);
-            transform: translateY(0);
     opacity: 1;
   }
 }
 
 .fade-in-left {
+    animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   -webkit-animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-          animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation-delay: 4.5s;
+  animation-delay: 4.5s;
 }
 
 @-webkit-keyframes fade-in-left {
   0% {
+    transform: translateX(-100px);
     -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
     opacity: 0;
   }
   100% {
+    transform: translateX(0);
     -webkit-transform: translateX(0);
-            transform: translateX(0);
     opacity: 1;
   }
 }
 @keyframes fade-in-left {
   0% {
+    transform: translateX(-100px);
     -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
     opacity: 0;
   }
   100% {
+    transform: translateX(0);
     -webkit-transform: translateX(0);
-            transform: translateX(0);
     opacity: 1;
   }
 }
 
 .fade-in-right {
+  animation: fade-in-right 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   -webkit-animation: fade-in-right 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-          animation: fade-in-right 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation-delay: 4.25s;
+  animation-delay: 4.25s;
 }
 
 @-webkit-keyframes fade-in-right {
   0% {
+    transform: translateX(100px);
     -webkit-transform: translateX(100px);
-            transform: translateX(100px);
     opacity: 0;
   }
   100% {
+    transform: translateX(0);
     -webkit-transform: translateX(0);
-            transform: translateX(0);
     opacity: 1;
   }
 }
 @keyframes fade-in-right {
   0% {
+    transform: translateX(100px);
     -webkit-transform: translateX(100px);
-            transform: translateX(100px);
     opacity: 0;
   }
   100% {
+    transform: translateX(0);
     -webkit-transform: translateX(0);
-            transform: translateX(0);
     opacity: 1;
   }
 }
 
 .fade-in-bottom {
+  animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   -webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-          animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation-delay: 4s;
+  animation-delay: 4s;
 }
 
 @-webkit-keyframes fade-in-bottom {
   0% {
+    transform: translateY(100px);
     -webkit-transform: translateY(100px);
-            transform: translateY(100px);
     opacity: 0;
   }
   100% {
+    transform: translateY(0);
     -webkit-transform: translateY(0);
-            transform: translateY(0);
     opacity: 1;
   }
 }
 @keyframes fade-in-bottom {
   0% {
+    transform: translateY(100px);
     -webkit-transform: translateY(100px);
-            transform: translateY(100px);
     opacity: 0;
   }
   100% {
+    transform: translateY(0);
     -webkit-transform: translateY(0);
-            transform: translateY(0);
     opacity: 1;
   }
 }
@@ -259,7 +259,7 @@
 }
 
 .section4 .wrapper-customer-section .owl-carousel .owl-item img {
-    max-height: 200px;
+  max-height: 200px;
 }
 
 a:hover{
@@ -308,11 +308,11 @@ a:hover{
   align-items: center;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
   -moz-transform: translate(-50%,-50%);
   -o-transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
 /*  margin-top: -40px;
   margin-left: calc(50% - 19px);*/
   transition: .51s ease-in; 
@@ -322,11 +322,11 @@ a:hover{
   position: relative;
 }
 .intro-info .fp-slidesContainer {
-  -webkit-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
   -moz-transform: translate3d(0, 0, 0) !important;
   -o-transform: translate3d(0, 0, 0) !important;
   -ms-transform: translate3d(0, 0, 0) !important;
-  transform: translate3d(0, 0, 0) !important;
+  -webkit-transform: translate3d(0, 0, 0) !important;
 }
 .intro-info .info{ 
   left: 0;
@@ -443,16 +443,16 @@ a:hover{
 .carousel-fade .carousel-item.active,
 .carousel-fade .active.carousel-item-left,
 .carousel-fade  .active.carousel-item-prev {
-  -webkit-transform: translateX(0) !important;
+  transform: translateX(0) !important;
   -moz-transform: translateX(0) !important;
   -o-transform: translateX(0) !important;
   -ms-transform: translateX(0) !important;
-  transform: translateX(0) !important;
-  -webkit-transform: translate3d(0, 0, 0) !important;
+  -webkit-transform: translateX(0) !important;
+  transform: translate3d(0, 0, 0) !important;
   -moz-transform: translate3d(0, 0, 0) !important;
   -o-transform: translate3d(0, 0, 0) !important;
   -ms-transform: translate3d(0, 0, 0) !important;
-  transform: translate3d(0, 0, 0) !important;
+  -webkit-transform: translate3d(0, 0, 0) !important;
 }
 .scoll-x {
   width: 100%;
@@ -515,11 +515,11 @@ a:hover{
   height: 150%;
   max-width: 150%;
   max-height: 120%;  
-  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 .h3x{ 
   font-size: 49px;
@@ -540,11 +540,11 @@ a:hover{
   text-align: center;
   left: 0;
   margin-left: 50%;
-  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
   margin-top: -30px; 
 } 
 .navbar.fixed-top{
@@ -798,24 +798,28 @@ a:hover{
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 5px 6px #00000029;
   opacity: 1;
-  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
   margin-left: 93px;
   transition: transform .3s;
 } 
 .section4 .item-awd:hover {
   transform: rotate(45deg) scale(1.1); 
+  -moz-transform: rotate(45deg) scale(1.1);
+  -o-transform: rotate(45deg) scale(1.1);
+  -ms-transform: rotate(45deg) scale(1.1);
+  -webkit-transform: rotate(45deg) scale(1.1);
   z-index: 1;
 }
 .section4 .item-awd .m{ 
-  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -967,12 +971,11 @@ a:hover{
   transform: translateY(-15vh);*/
   min-height: 160vh;
   width: 160vw;
-  -webkit-transform: translate(-30vw,-30vh);
+  transform: translate(-30vw,-30vh);
   -moz-transform: translate(-30vw,-30vh);
   -o-transform: translate(-30vw,-30vh);
   -ms-transform: translate(-30vw,-30vh);
-  transform: translate(-30vw,-30vh);
-
+  -webkit-transform: translate(-30vw,-30vh);
   top: 0 !important;
   position: absolute;
   z-index: 9;
@@ -1088,11 +1091,11 @@ a:hover{
   /*left: 0;*/
   /*margin-left: calc(50% - 10px);*/
   left: 50%;
-  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
   margin-top: -35px;
   margin-bottom: 50px;
 } 
@@ -1238,11 +1241,11 @@ a:hover{
   text-align: center;
   left: 0;
   margin-left: 50%;
-  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
   margin-top: -30px; 
   color: #004E1F;
 } 
@@ -1403,21 +1406,21 @@ a:hover{
   margin-right: auto; 
 }
 .arrow img:nth-child(1){
-  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
   -moz-transform: rotate(40deg);
   -o-transform: rotate(40deg);
   -ms-transform: rotate(40deg);
-  transform: rotate(40deg);
+  -webkit-transform: rotate(40deg);
 }
 .arrow img:nth-child(2){  
   margin-top: 45px;
 }
 .arrow img:nth-child(3){
-  -webkit-transform: rotate(-40deg);
+  transform: rotate(-40deg);
   -moz-transform: rotate(-40deg);
   -o-transform: rotate(-40deg);
   -ms-transform: rotate(-40deg);
-  transform: rotate(-40deg);
+  -webkit-transform: rotate(-40deg);
 }
 .tab-circle{ 
   width: 100%;
@@ -2042,6 +2045,9 @@ a:hover{
   }
 }
 
+.section8 .bg-section8-show {
+  height: 0;
+}
 
 @media screen and (max-width: 1199px) { /* WEB1200 */
   .section2 .h3x {
@@ -2572,11 +2578,11 @@ a:hover{
   .right-menu {
     width: 300px;
     height: 185px;
-    -webkit-transform: translateX(250px);
+    transform: translateX(250px);
     -moz-transform: translateX(250px);
     -o-transform: translateX(250px);
     -ms-transform: translateX(250px);
-    transform: translateX(250px);
+    -webkit-transform: translateX(250px);
   }
   .right-menu .btn {
     height: 60px;
@@ -2817,13 +2823,13 @@ a:hover{
   .splashscreen {
     min-height: 130vh;
     width: 130vw;
-    -webkit-transform: translate(-15vw,-15vh);
+    transform: translate(-15vw,-15vh);
     -moz-transform: translate(-15vw,-15vh);
     -o-transform: translate(-15vw,-15vh);
     -ms-transform: translate(-15vw,-15vh);
-    transform: translate(-15vw,-15vh);
+    -webkit-transform: translate(-15vw,-15vh);
   }
-/*  #dataEnd1 {
+  #dataEnd1 {
     min-height: 2000px !important;
   }
   #dataEnd2 {
@@ -2843,7 +2849,7 @@ a:hover{
   }
   #dataEnd7 {
     min-height: 900px !important;
-  }*/
+  }
 }
 
 @media only screen and (max-width: 399px) { 
