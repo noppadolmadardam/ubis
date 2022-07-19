@@ -2327,14 +2327,14 @@ a:hover{
     height: 75px;
     max-width: calc(100% - 64px);
   }
-  .section3.section.fp-section,
+/*  .section3.section.fp-section,
   .section8.section.fp-section,
   .section7.section.fp-section {
     height: auto !important; 
     display: block !important;
     overflow-y: scroll;
     outline: none;
-  }
+  }*/
   .section1 p {
     margin: 0 auto !important;
     text-align: center;
