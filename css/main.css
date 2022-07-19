@@ -1733,7 +1733,7 @@ a:hover{
 }
 
 .right-menu .menu-fixed-page ul li:last-child {
-  margin-right: 0 !important;
+  margin-right: calc(0.4rem) !important;
 }
 
 .right-menu .menu-fixed-page ul li .nav-link.menu-main {
